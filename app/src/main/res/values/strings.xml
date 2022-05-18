@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="main_btn">WHAT I CAN DO TODAY</string>
+    <string name="activity_name">Name</string>
+    <string name="activity_price">Price</string>
+    <string name="activity_type">Type</string>
+
+</resources>

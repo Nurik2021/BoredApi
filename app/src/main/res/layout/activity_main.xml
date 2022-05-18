@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/c2e0e533c609a2253aca5add40df40d2"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_marginHorizontal="15sp"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/corner_for_button"
+
+        android:onClick="getBoredApiDetails"
+        android:text="@string/main_btn"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_marginHorizontal="15sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:layout_marginTop="35sp"
+            android:text="@string/activity_name"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:layout_marginTop="120sp"
+            android:text="@string/activity_price"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:layout_marginTop="190sp"
+            android:text="@string/activity_type"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
